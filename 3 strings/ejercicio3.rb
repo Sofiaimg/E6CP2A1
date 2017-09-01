@@ -6,3 +6,16 @@
 
 a = [1, 2, 3, 9, 12, 31, 'domingo']
 b = %w[lunes martes miércoles jueves viernes sábado domingo]
+
+# 1 concatenacion
+print a + b
+puts " "
+# 2 union a y b sin duplicado
+print a | b
+puts " " 
+
+# 3 Interseccion entre a y b
+print a & b 
+puts " "
+# 4 intercalar elementos
+print a.zip(b)
